@@ -1,0 +1,8 @@
+package: github.com/ripienaar/embedded-choria-sample
+import:
+- package: github.com/choria-io/go-choria
+  subpackages:
+  - choria
+  - server
+- package: github.com/sirupsen/logrus
+  version: ^1.0.4

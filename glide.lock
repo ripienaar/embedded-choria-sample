@@ -1,0 +1,94 @@
+hash: a8f86de93de79d33ce4808dc6e87387e45728d54b1960a3988e66cf4c97b16b5
+updated: 2018-01-11T15:27:16.686814+01:00
+imports:
+- name: github.com/beorn7/perks
+  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  subpackages:
+  - quantile
+- name: github.com/choria-io/go-choria
+  version: 2af6ec10d3ba651d3f40ee86558b8636c90c429d
+  subpackages:
+  - agents/choriautil
+  - agents/discovery
+  - agents/provision
+  - backoff
+  - build
+  - choria
+  - mcorpc
+  - mcorpc/audit
+  - registration
+  - server
+  - server/agents
+  - server/data
+  - server/discovery
+  - server/discovery/agents
+  - server/discovery/classes
+  - server/discovery/facts
+  - server/discovery/identity
+  - server/registration
+  - srvcache
+- name: github.com/choria-io/go-protocol
+  version: 72bc3ca9593e692e55a3f5dda61194803f54d619
+  subpackages:
+  - protocol
+  - protocol/v1
+- name: github.com/ghodss/yaml
+  version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
+- name: github.com/golang/protobuf
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
+  subpackages:
+  - proto
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/nats-io/go-nats
+  version: d66cb54e6b7bdd93f0b28afc8450d84c780dfb68
+  subpackages:
+  - encoders/builtin
+  - util
+- name: github.com/nats-io/nuid
+  version: 289cccf02c178dc782430d534e3c1f5b72af807f
+- name: github.com/prometheus/client_golang
+  version: 661e31bf844dfca9aeba15f27ea8aa0d485ad212
+  subpackages:
+  - prometheus
+- name: github.com/prometheus/client_model
+  version: 99fa1f4be8e564e8a6b613da7fa6f46c9edafc6c
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 2e54d0b93cba2fd133edc32211dcc32c06ef72ca
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: a6e9df898b1336106c743392c48ee0b71f5c4efa
+  subpackages:
+  - xfs
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/sirupsen/logrus
+  version: d682213848ed68c0a260ca37d6dd5ace8423f5ba
+- name: github.com/tidwall/gjson
+  version: e62d62a3e1e9f324346170bbc04333341f803dfb
+- name: github.com/tidwall/match
+  version: 173748da739a410c5b0b813b956f89ff94730b4c
+- name: github.com/xeipuuv/gojsonpointer
+  version: 6fe8760cad3569743d51ddbb243b26f8456742dc
+- name: github.com/xeipuuv/gojsonreference
+  version: e02fc20de94c78484cd5ffb007f8af96be030a45
+- name: github.com/xeipuuv/gojsonschema
+  version: 0c8571ac0ce161a5feb57375a9cdf148c98c0f70
+- name: golang.org/x/crypto
+  version: 9477e0b78b9ac3d0b03822fd95422e2fe07627cd
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: f7928cfef4d09d1b080aa2b6fd3ca9ba1567c733
+  subpackages:
+  - unix
+- name: gopkg.in/yaml.v2
+  version: 287cf08546ab5e7e37d55a84f7ed3fd1db036de5
+testImports: []

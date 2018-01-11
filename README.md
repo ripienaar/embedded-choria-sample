@@ -35,7 +35,9 @@ A small project that embeds Choria in this manner is my example [choriapi](https
 
 # Example
 
-I will walk through creating a small custom binary that embeds a Choria server while performing some work in a loop.
+I will walk through creating a small custom binary that embeds a Choria server while performing some work in a loop.  The idea is that the work loop - here just printing to STDOUt - is the main function this app is supposed to perform.
+
+In order to manage a Circuit Breaker in it and extract data from it's internals it utilize Choria Server as a library to run custom management agent, settings, data exfil etc all secured by the Choria Protocol.
 
 The example will publish data about it's internals regularly to the network secured using the Choria protocol so it's tamper proof and you can verify the publisher really did publish it.
 

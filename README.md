@@ -356,7 +356,7 @@ func runChoria(ctx context.Context, wg *sync.WaitGroup) {
 
 Finally we can utilise registration to publish internals of our process regularly, metrics or facts, whatever I'll leave the detail of what is being published out.
 
-The published messages will be wrapped in Choria protocol bits - signed, tamper proof, authentication assured by certname and so forth.  
+The published messages will be wrapped in Choria protocol bits - signed, tamper proof, authentication assured by certname and so forth.
 
 It goes to `acme.data` on the middleware and you can use a Choria Adapter to publish that into NATS Stream for processing using Stream Processing semantics.
 
@@ -468,8 +468,8 @@ Discovering hosts using the mc method for 2 second(s) .... 1
 
 
 dust.local
-   message: Switched the circuit breaker, allowWork = true
-     state: true
+   message: Switched the circuit breaker, allowWork = false
+     state: false
 
 
 

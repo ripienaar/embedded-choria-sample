@@ -36,7 +36,7 @@ func Expose(ctx context.Context, wg *sync.WaitGroup, cfg *choria.Config) {
 	f.Close()
 
 	// discovery will find this file now and report on its contents as json format
-	cfg.Choria.FactSourceFile = f.Name()
+	cfg.FactSourceFile = f.Name()
 
 	writer := func() {
 		err := write()

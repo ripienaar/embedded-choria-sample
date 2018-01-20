@@ -40,7 +40,7 @@ func registerAgent(ctx context.Context) error {
 	return cserver.RegisterAgent(ctx, "circuit_breaker", agent)
 }
 
-func switchAction(req *mcorpc.Request, reply *mcorpc.Reply, agent *mcorpc.Agent, conn choria.ConnectorInfo) {
+func switchAction(ctx context.Context, req *mcorpc.Request, reply *mcorpc.Reply, agent *mcorpc.Agent, conn choria.ConnectorInfo) {
 	allowWork = !allowWork
 
 	agent.Log.Infof("Switches the circuit breaker, allowWork = %t", allowWork)
